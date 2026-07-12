@@ -1,0 +1,4 @@
+# Dependencies needed to BUILD the Jupyter Book.
+# Notebooks ship with saved outputs and execution is off in _config.yml,
+# so PyPSA and a solver are not required to build the book.
+jupyter-book>=1,<2

@@ -1,0 +1,36 @@
+# Jupyter Book 1 configuration
+# https://jupyterbook.org/customize/config.html
+
+title: Energy Modelling Workshop 2026
+author: EnergyLab
+copyright: "2026"
+logo: ""
+
+# Only build files listed in the _toc.yml
+only_build_toc_files: true
+
+# Notebooks already contain saved outputs, so do not re-execute them at build
+# time (this avoids needing PyPSA and a solver installed just to build the book).
+execute:
+  execute_notebooks: "off"
+
+# Allow $...$ math in Markdown
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - colon_fence
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/PriyeshGosai/energylab-emw-2026
+  branch: main
+
+# Add GitHub buttons to the book
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+# "Launch in the cloud" buttons on notebook pages
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  colab_url: "https://colab.research.google.com"

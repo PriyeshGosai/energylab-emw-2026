@@ -1,0 +1,11 @@
+# Table of contents
+# https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+  - file: notebook_exercise_1
+  - file: notebook_exercise_2
+  - file: notebook_exercise_3
+  - file: notebook_exercise_4
+  - file: notebook_exercise_5
